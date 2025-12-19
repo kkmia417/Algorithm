@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run C++ File with Shared Input and Output",
+            "type": "shell",
+            "command": "g++ ${file} -o ${workspaceFolder}/program.exe && ${workspaceFolder}/program.exe < ${workspaceFolder}/input.txt > ${workspaceFolder}/out.txt",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [],
+            "presentation": {
+                "echo": false,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": false,
+                "clear": false
+            },
+            "runOptions": {
+                "runOn": "folderOpen"
+            },
+            "detail": "Compile and run C++ file with shared input.txt and output to shared out.txt"
+        }
+    ]
+}

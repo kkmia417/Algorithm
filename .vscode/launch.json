@@ -1,0 +1,18 @@
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Run C++ with Input and Output",
+//             "type": "cppvsdbg",
+//             "request": "launch",
+//             "program": "${fileDirname}/program.exe",
+//             "args": [],
+//             "stopAtEntry": false,
+//             "cwd": "${fileDirname}",
+//             "environment": [],
+//             "console": "internalConsole",
+//             "preLaunchTask": "Run C++ File with Input and Output",
+//             "internalConsoleOptions": "neverOpen"
+//         }
+//     ]
+// }
